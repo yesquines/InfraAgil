@@ -1,0 +1,17 @@
+- name: devops
+  cpus: 1
+  memory: 4092
+  ip: 192.168.99.10
+  so: ubuntu/bionic64
+
+- name: docker
+  cpus: 1
+  memory: 3072
+  ip: 192.168.99.20
+  so: ubuntu/bionic64
+
+- name: automation
+  cpus: 1
+  memory: 3072
+  ip: 192.168.99.30
+  so: centos/7
