@@ -16,12 +16,12 @@ O Curso está dividido em **10 Aulas**. A Agenda _sugerida_ para esses 10 dias i
 AULA | MATÉRIA*
 -----|---------
 Aula01 | Teoria sobre DevOPS
-Aula02 | Ansible
-Aula03 | Ansible
-Aula04 | Puppet
-Aula05 | Puppet
-Aula06  | Docker
-Aula07  | Docker / Git-GitLab
+Aula02 | Introdução Ansible
+Aula03 | Ansible - Roles
+Aula04 | Introdução Puppet
+Aula05 | Puppet - Modulos
+Aula06  | Introdução Docker 
+Aula07  | Docker - Docker Compose e DockerFile / Git-GitLab
 Aula08  | Rundeck
 Aula09  | Jenkins
 Aula10  | BlueGreen Deployment / Introdução a AWS
