@@ -37,3 +37,21 @@ Cada Branch é referente a uma técnologia, procedimentos, links,  ou informaç�
 * **Puppet**: Contempla os procedimentos de Instalação do Puppet Agent e Server e Imagens de explicação da sua estrutura.
 * **Rundeck**: Contempla o procedimento de Instalação do Rudenck e Imagem de explicação da sua estrutura.
 * **Jenkins**: Contempla o procedimento de Instalação do Jenkins.
+
+VAGRANT
+-------
+Ferramenta para criar e gerenciar ambientes virtualizados (baseado em inumeros providers) com foco em automação.
+
+Comandos     | Descrição
+------------ |------------------
+vagrant init| Gera o VagrantFile
+vagrant box add <box> | Baixar imagem do sistema
+vagrant box status    | Verificar o status dos boxes criados
+vagrant up            | Cria/Liga as VMs baseado no VagrantFile
+vagrant up --provision| Sobe a máquina com as alterações feitas no VagrantFile
+vagrant provision     | Provisiona mudanças logicas nas VMs
+vagrant status | Verifica se VM estão ativas ou não.
+vagrant ssh 'vm'  | Acessa a VM
+vagrant ssh 'vm' -c 'comando' | Executa comando via ssh
+vagrant reload 'vm' | Reinicia a VM
+vagrant halt  | Desliga as VMs
